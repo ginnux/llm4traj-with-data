@@ -1,0 +1,3 @@
+    lidx, ridx = libjoin.left_outer_join(lkey, rkey, count, sort=sort)
+  File "join.pyx", line 116, in pandas._libs.join.left_outer_join
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 1.54 TiB for an array with shape (211047458960,) and data type int64
